@@ -1,2 +1,2 @@
 # doomwyte.github.io
-Personal Webfsite
+Personal Website

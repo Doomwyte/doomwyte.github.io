@@ -1,0 +1,68 @@
+body{
+	font-size: 22px;
+}
+
+hr{
+	border-width: 7px;
+	background-color: white;
+}
+
+#container_intro{
+	height: 720px;
+	width: 100%;
+	background-image: url(../images/teemo.gif);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100%;
+}
+
+#container_experience_1{
+	height: 600px;
+	width: 100%;
+	background-color: #263238;
+	color: white;
+}
+
+#container_experience_2{
+	height: 600px;
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+
+#container_projects{
+	height: 600px;
+	width: 100%;
+	background-image: url(../images/future_city.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100%;	
+}
+
+#intro_logo{
+	margin-top: 60px;
+	width: 900px;
+	height: 450px;
+}
+
+.experience-item{
+	width: 600px;
+	color: white;
+	padding-top: 100px;
+	margin-left: 80px;
+	display:inline-block;
+}
+
+.experience-logo{
+	position: relative;
+	display:inline-block;
+	margin-left: 100px;
+	bottom: 150px;
+}
+
+#experience_1_logo{
+	width: 380px;
+	height: 180px;
+}

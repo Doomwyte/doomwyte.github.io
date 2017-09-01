@@ -5,9 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Lily Doo</title>
   <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css" >
-  <link rel="stylesheet" type="text/css" href="css/site.css"
+  <link rel="stylesheet" type="text/css" href="css/site.css">
+
+
+
+	<link rel="stylesheet" href="lib/stretchy-navigation/css/style.css"> <!-- Resource style -->
+	<script src="lib/stretchy-navigation/js/modernizr.js"></script> <!-- Modernizr -->  
+
 </head>
 <body>
+
+<header>
+	<nav class="cd-stretchy-nav">
+		<a class="cd-nav-trigger" href="#0">
+			<span aria-hidden="true"></span>
+		</a>
+
+		<ul>
+			<li><a href="#0" class="active"><span>Home</span></a></li>
+			<li><a href="#0"><span>Portfolio</span></a></li>
+			<li><a href="#0"><span>Services</span></a></li>
+			<li><a href="#0"><span>Store</span></a></li>
+			<li><a href="#0"><span>Contact</span></a></li>
+		</ul>
+
+		<span aria-hidden="true" class="stretchy-nav-bg"></span>
+	</nav>
+</header>
+
+
 	<!-- Intro section -->
 	<div id="container_intro">
 		<img id="intro_logo" src="images/intro_logo.png" alt="logo" />
@@ -76,6 +102,8 @@
 
 
 	<!-- Hobbies section -->
+	<script src="lib/stretchy-navigation/js/jquery-2.1.4.js"></script>
+	<script src="lib/stretchy-navigation/js/main.js"></script> <!-- Resource jQuery -->
 	<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="lib/jquery/jquery-3.2.1.min.js"></script>
 </body>

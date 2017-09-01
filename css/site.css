@@ -20,14 +20,14 @@ hr{
 #container_experience_1{
 	height: 600px;
 	width: 100%;
-	background-color: #263238;
+	background-color: #1e262a;
 	color: white;
 }
 
 #container_experience_2{
 	height: 600px;
 	width: 100%;
-	background-color: black;
+	background-color: #191b1d;
 	color: white;
 }
 
@@ -59,10 +59,21 @@ hr{
 	position: relative;
 	display:inline-block;
 	margin-left: 100px;
-	bottom: 150px;
+	bottom: 160px;
 }
 
 #experience_1_logo{
 	width: 380px;
-	height: 180px;
+	height: 190px;
+}
+
+#experience_2_logo{
+	width: 380px;
+	height: 210px;
+}
+
+#projects{
+	width: 100%;
+	height: 500px;
+	background-color: black;
 }

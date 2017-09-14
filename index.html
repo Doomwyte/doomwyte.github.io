@@ -14,7 +14,7 @@
 			<a class="cd-nav-trigger" href="#0">
 				<span aria-hidden="true"></span>
 			</a>
-			<ul>
+			<ul id="nav_ul">
 				<li><a href="#container_intro" class="active"><span>Home</span></a></li>
 				<li><a href="#container_experience_1"><span>Experience</span></a></li>
 				<li><a href="#container_projects"><span>Projects</span></a></li>
@@ -29,35 +29,44 @@
 		<img id="intro_logo" src="images/intro_logo.png" alt="logo" />
 	</div>
 	<!-- Experience section -->
-	<div id="container_experience_1">
-		<div class="center-container">
-			<div class="experience-item">
+	<div class="container-experience" id="container_experience_1">
+		<div class="center-container-experience clearfix">
+			<div id="experience_1_item_container" class="experience-item col-lg-6 col-sm-12">
 				<hr />
 				<h2>QA Developer, Co-op</h2>
 				<hr />
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<ul>
+					<li>Developed automated tests using Watir and Casper to catch functional and UI bugs and to reduce manual testing</li>
+					<li>Responsible for setting up Casper automation with existing automation frameworks to allow more effective post-deployment testing</li>
+					<li>Demonstrated ownership by taking on role of QA lead for new features during sprint cycles, collaborating with developers and project managers to design test plans</li>
+				</ul>
 			</div>
-			<div class="experience-logo">
+			<div class="experience-logo col-lg-4 offset-lg-1 col-sm-12">
 				<img id="experience_1_logo" src="images/sap_logo.png" alt="logo" />
 			</div>
 		</div>
 	</div>
-	<div id="container_experience_2">
-		<div class="center-container">
-			<div class="experience-logo">
+	<div class="container-experience" id="container_experience_2">
+		<div class="center-container-experience clearfix">
+			<div id="experience_2_logo_container" class="experience-logo col-lg-4 col-sm-12">
 				<img id="experience_2_logo" src="images/appnovation_logo.png" alt="logo" />
 			</div>	
-			<div class="experience-item">
+			<div class="experience-item col-lg-6 offset-lg-1">
 				<hr />
 				<h2>Web Developer, Competition</h2>
 				<hr />
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<ul>
+					<li>Developed a dynamic and mobile friendly test website for Appnovation’s osCaddie service through a team competition event</li>
+					<li>Implemented using Drupal, HTML, CSS and JavaScript, with Gitlab for version control</li>
+					<li>Demonstrated teamwork by cooperating in a team of three to discuss project management using the Agile development cycle and client presentation strategies</li>
+
+				</ul>
 			</div>
 		</div>
 	</div>
 	<!-- Projects section -->
 	<div id="container_projects">
-		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="#carousel">
 		  <ol class="carousel-indicators">
 		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -65,41 +74,43 @@
 		  </ol>
 		  <div class="carousel-inner" role="listbox">
 		    <div class="carousel-item active" id="project1">
-		    	<div class="center-container">
-			    	<div class="project-img">
+		    	<div class="center-container container-experience clearfix">
+			    	<div class="project-img col-lg-5 col-sm-12 offset-lg-1">
 		    			<img id="project1_logo" src="images/project1.png" alt="logo" />
 		    		</div>
-		    		<div class="project-item">
+		    		<div class="project-item col-lg-5 col-sm-12">
 		    			<h2>SFU Noteify</h2>
 		    			<br />
 		    			<p>A web application for SFU students to view and share course notes online.</p>
 		    			<p>Students can login and search for course notes that their peers have uploaded. They can rate, comment and download notes to help them study.</p>
+<!-- 		    			<button type="button" class="btn btn-primary">Primary</button> -->
 		    		</div>
 		    	</div>
 		    </div>
 		    <div class="carousel-item" id="project2">
-		    	<div class="center-container">
-			    	<div class="project-img">
+		    	<div class="center-container container-experience clearfix">
+			    	<div class="project-img col-lg-5 col-sm-12 offset-lg-1">
 			    		<img id="project2_logo" src="images/project2.png" alt="logo" />
 		    		</div>
-		    		<div class="project-item">
+		    		<div class="project-item col-lg-5 col-sm-12">
 		    			<h2>Random Encounters</h2>
 		    			<br />
 		    			<p>Tired of going on quests and adventures with strangers you'll never meet halfway across the world? </p>
-		    			<p>Random Encounters is a web application that helps gamers find friends near their area to buddy up and game with. The site has an integrated Google Maps API that allows users to search up gamers who play similar games near them.</p>
+		    			<p>Random Encounters is a web application that helps gamers find friends near their area to buddy up and game with. The site has an integrated Google Maps API that allows users to search up gamers near them.</p>
+<!-- 		    			<button type="button" class="btn btn-primary">Primary</button> -->
 		    		</div>	 
 		    	</div>  
 		    </div>
 		    <div class="carousel-item" id="project3">
-		    	<div class="center-container">
-			    	<div class="project-img">
+		    	<div class="center-container container-experience clearfix">
+			    	<div class="project-img col-lg-5 col-sm-12 offset-lg-1">
 			    		<img id="project3_logo" src="images/project3.png" alt="logo" />
 		    		</div>
-		    		<div class="project-item">
+		    		<div class="project-item col-lg-5 col-sm-12">
 		    			<h2>SAP Jam Hackathon</h2>
 		    			<br />
-		    			<p>A bacon cheeseburger is good for you and good for me hohoho</p>
-		    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		    			<p>A hackathon within the SAP Jam team. Jam is a social collaboration software for business enterprises.</p>
+		    			<p>Integrated a face recognition program to SAP Jam so that people can easily tag each other. Won the Management Award for the most popular amongst project managers.</p>
 		    		</div>	
 		    	</div>
 		    </div>
@@ -116,8 +127,8 @@
 	</div>
 	<!-- Hobbies section -->
 	<div id="container_hobbies">
-		<div class="solid-strip">
-			<div class="center-container">
+		<div class="solid-strip clearfix">
+			<div class="center-container-hobbies">
 		  	<div class="inline-display">
 		  		<div class="portfolio-box">
 		  			<img id="hobby" src="images/button_doggo.png" alt="logo" />
@@ -127,7 +138,7 @@
 		  						Dogs
 		  					</div>
 		  					<div class="project-name">
-		  						This is Cherry. She was born on February 14, 2009 and I had her since she was 2 months old. We watched eacah other grow up and she is my best friend in the whole wide world :D
+		  						This is Cherry. She was born on February 14, 2009 and I had her since she was 2 months old. We watched each other grow up and she is my best friend in the whole wide world :D
 		  					</div>
 		  				</div>
 		  			</div>
@@ -169,13 +180,13 @@
 	<!-- Contact section -->
 	<div id="container_contact">
 		<div class="middle-blob">
-			<div class="center-container">
-				<div id="contact_info">
-					<h2>HELLO</h2>
-					<br />
-					<p>I am currently studying Computer Science at Simon Fraser University. I am probably one of the few who actually enjoys QA work, but with that being said, I also love doing dev work.</p>
-					<p>Feel free to shoot me an email at <b>Ldoo@sfu.ca</b>.</p>
-				</div>
+			<div id="contact_info" class="col-lg-7 col-sm-12">
+				<h2>HELLO</h2>
+				<br />
+				<p>I am currently studying Computer Science at Simon Fraser University. I am probably one of the few who actually enjoys QA work, but with that being said, I also love being a dev.</p>
+				<p>Feel free to shoot me an email at <b>Ldoo@sfu.ca</b>.</p>
+			</div>
+			<div id="my_pic_container" class="col-lg-4 col-sm-12">
 				<img id="my_pic" src="images/project3.jpg">
 			</div>
 		</div>

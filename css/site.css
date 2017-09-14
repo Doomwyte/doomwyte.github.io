@@ -9,144 +9,151 @@ hr{
 	background-color: white;
 }
 
+/*responsive resizing*/
+@media (min-width: 992px) {
+	.experience-logo{
+		margin-top: 150px;
+	}
+
+	#my_pic{
+		margin-bottom: 200px;
+	}
+}
+
 /*containers*/
 .center-container{
-	width: 1300px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
+.center-container-experience{
+	margin-top: 50px;
+}
+
+.center-container-hobbies{
+	text-align: center;
+}
+
 #container_intro{
-	height: 720px;
-	background-image: url(../images/teemo.gif);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-	background-size: 100%;
+  background: url(../images/teemo.gif) no-repeat center fixed;
+  background-size: cover;
+  min-height: 720px;
+  max-height: 800px;
+}
+
+.container-experience {
+	padding: 70px 70px;
 }
 
 #container_experience_1{
-	height: 600px;
-	width: 100%;
 	background-color: #1e262a;
+	min-height: 600px;
 }
 
 #container_experience_2{
-	height: 600px;
-	width: 100%;
 	background-color: #191b1d;
+	min-height: 600px;
 }
 
 #container_hobbies{
-	background: url("http://i.imgur.com/Q9L8sGd.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-	background-size: 100%;
-	height: 950px;
+	background: url("http://i.imgur.com/Q9L8sGd.jpg") no-repeat center fixed;
+  background-size: cover;
+  min-height: 950px;
+  padding-top: 250px;
+  padding-bottom: 250px;
 }
 
 #container_contact{
-	background: url(../images/ori.jpg);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-	background-size: 100%;
-	height: 700px;
+	background: url(../images/ori.jpg) no-repeat center fixed;
+  background-size: cover;
+  min-height: 950px;
+	min-height: 700px;
 }
 
 /*intro stuff*/
 #intro_logo{
-	margin-top: 60px;
-	width: 900px;
-	height: 450px;
+	height: 70%;
 }
 
 /*experience stuff*/
 .experience-item{
-	width: 600px;
-	padding-top: 100px;
-	margin-left: 80px;
-	display:inline-block;
+	display: inline-block;
 }
 
 .experience-logo{
-	position: relative;
-	display:inline-block;
-	margin-left: 100px;
-	bottom: 160px;
+	display: inline-block;
+	text-align: center;
+	margin-top: 60px;
 }
 
 #experience_1_logo{
-	width: 380px;
-	height: 190px;
+	padding-top: 20px;
+	width: 100%;
+	max-width: 380px;
 }
 
 #experience_2_logo{
-	width: 380px;
-	height: 210px;
+	width: 100%;
+	max-width: 380px;
+}
+
+#experience_1_item_container,
+#experience_2_logo_container {
+	float: left;
 }
 
 /*project stuff*/
 #project1{
-	width: 100%;
-	height: 615px;
 	background-color: #a6192e;
+	min-height: 600px;
 }
 
 #project2{
-	width: 100%;
-	height: 615px;
 	background-color: #1d4d63;
+	min-height: 600px;
 }
 
 #project3{
-	width: 100%;
-	height: 615px;
 	background-color: #275611;
+	min-height: 600px;
 }
 
 .project-item{
+	padding-top: 70px;
 	font-size: 21px;
-	width: 400px;
-	margin-left: 80px;
-	margin-top: 100px;
 	display:inline-block;
 }
 
 .project-img{
+	padding-top: 70px;
+	padding-right: 40px;
 	position: relative;
+	float: left;
 	display:inline-block;
 }
 
 #project1_logo{
-	margin-left: 100px;
-	margin-bottom: 100px;
-	width: 500px;
-	height: 340px;
+	max-width: 500px;
+	width: 100%;
 }
 
 #project2_logo{
-	margin-left: 150px;
-	margin-bottom: 280px;
-	width: 500px;
-	height: 340px;
+	max-width: 500px;
+	width: 100%;
 }
 
 #project3_logo{
-	margin-left: 150px;
-	margin-bottom: 85px;
-	width: 500px;
-	height: 340px;
+	max-width: 500px;
+	width: 100%;
+	padding-bottom: 30px;
 }
 
 /*hobbies stuff*/
 .solid-strip{
 	background-color: #0f151a;
 	width: 100%;
-	height: 530px;
 	position: relative;
-	top: 180px;
+	min-height: 530px;
 }
 
 #hobby{
@@ -218,22 +225,31 @@ hr{
 /*Contacts stuff*/
 .middle-blob{
 	width: 85%;
-	height: 550px;
+	min-height: 550px;
 	background-color: #191b1d;
 	margin: 0 auto;
 }
 
 #contact_info{
 	display: inline-block;
-	width: 500px;
-	margin-left: 8%;
 	margin-top: 100px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+#my_pic_container{
+	display: inline-block;
+	text-align: center;
+	margin-top: 30px;
 }
 
 #my_pic{
-	display: inline-block;
-	width: 350px;
-	height: 350px;
-	margin-left: 5%;
-	margin-bottom: 200px;
+	width: 100%;
+	max-width: 350px;
+	margin-bottom: 50px;
+}
+
+#nav_ul{
+	list-style-type: none;
+	color: green;
 }

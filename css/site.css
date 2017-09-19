@@ -97,7 +97,11 @@ hr{
 	max-width: 380px;
 }
 
-#experience_1_item_container,
+#experience_1_item_container{
+	float: left;
+	padding-left: 37px;
+}
+
 #experience_2_logo_container {
 	float: left;
 }

@@ -86,7 +86,12 @@ hr{
 	margin-top: 60px;
 }
 
+#experience_00_logo {
+	width: 80%;
+}
+
 #experience_0_logo {
+	padding-top: 10px;
 	width: 100%;
 }
 
@@ -156,7 +161,7 @@ hr{
 
 #project2_logo{
 	max-width: 500px;
-	width: 100%;
+	width: 70%;
 }
 
 #project3_logo{
